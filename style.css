@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 header{
     background-color: rgba(25, 82, 63, 0.582);
     color: white;
