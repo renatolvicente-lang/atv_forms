@@ -1,0 +1,23 @@
+header{
+    background-color: rgba(25, 82, 63, 0.582);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: rgba(25, 82, 63, 0.582);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav a:hover{
+    
+    border-radius: 20px;
+    border: 1px solid white;
+}
