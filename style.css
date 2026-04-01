@@ -16,8 +16,17 @@ nav a{
     padding: 10px;
     color: white;
 }
+section{
+    margin: auto;
+}
+#sobre{
+    display: flex;
+    padding: 30px;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
 nav a:hover{
-    
+
     border-radius: 20px;
     border: 1px solid white;
 }
