@@ -10,6 +10,8 @@ header{
     text-align: center;
 }
 nav{
+    position: sticky;
+    top: 0;
     background-color: rgba(25, 82, 63, 0.582);
     color: white;
     padding: 20px;
@@ -29,7 +31,7 @@ main{
     display: flex;
     padding: 30px;
     border-bottom: 1px solid black;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 input, label, legend{
     margin: 7px;
@@ -38,4 +40,7 @@ nav a:hover{
 
     border-radius: 20px;
     border: 1px solid white;
+}
+footer{
+    text-align: center;
 }
