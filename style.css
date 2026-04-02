@@ -24,14 +24,8 @@ section{
     margin: auto;
     padding: 20px; 
 }
-#sobre{
-    display: flex;
-    padding: 30px;
-    border-bottom: 1px solid black;
-    margin-top: 10px;
-}
-#utilidade{
-    display:flex;
+main{
+     display: flex;
     padding: 30px;
     border-bottom: 1px solid black;
     margin-top: 10px;
