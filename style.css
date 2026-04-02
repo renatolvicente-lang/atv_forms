@@ -25,12 +25,14 @@ section{
     padding: 20px; 
 }
 main{
-     display: flex;
+    display: flex;
     padding: 30px;
     border-bottom: 1px solid black;
     margin-top: 10px;
 }
-
+input, label, legend{
+    margin: 7px;
+}
 nav a:hover{
 
     border-radius: 20px;

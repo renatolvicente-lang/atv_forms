@@ -14,12 +14,12 @@
         <a href="#sobre">O que é?</a>
         <a href="#utilidade">Para que serve?</a>
         <a href="#elementos">Elementos</a>
-        <a href="#semantica">Semântica</a>
+        <a href="#organizacao">Organização</a>
     </nav>
 
     <main id="sobre">
         <section class="exemplo">
-            <form action="cadastro">
+            <form action="cadastro" class="cadastro">
                 <label for="nome">Insira seu nome:</label><br>
                 <input type="text" name="nome" id="nome"><br>
 
@@ -31,14 +31,14 @@
             </form>
         </section>
         <section>
-            <h1>O que é ?</h1>
+            <h2>O que é ?</h2>
             <p>Os formulários HTML são a principal forma pela qual os sites coletam informações do usuário e as enviam para um servidor para processamento.São essenciais para funcionalidades como logins, cadastros, barras de pesquisa e páginas de contato. </p>
         </section>
     </main>
 
     <main id="utilidade">
         <section class="ulti">
-            <form action="cadastro" >
+            <form action="cadastro" class="cadastro">
                 <label for="email">Insira seu email:</label><br>
                 <input type="email" name="email" id="email"><br>
 
@@ -53,13 +53,14 @@
             </form>
         </section>
         <section>
-            <h1>Utilidades dos Formulários no HTML</h1>
+            <h2>Utilidades dos Formulários no HTML</h2>
             <p>Normalmente ultilizado para paginas de de cadastro, paginas de login, paginas de recuperação, formularios em si ou até calculadoras e é uma das pricipais ferramentas para coletar dados de usuarios e enviá-los para o banco de dados.</p>
         </section>
     </main>
     <main id="elementos">
         <section>
-             <form action="cadastro" >
+             <form action="cadastro" class="cadastro">
+                <legend>Recuperação de Senha:</legend>
                 <label for="email">Isso aqui é um lable</label><br>
                 <input type="email" name="email" id="email" value="isso aqui é um input"><br>
 
@@ -74,18 +75,39 @@
             </form>
         </section>
         <section>
-            <h1>Elementos dos Formulários</h1>
-            <p>Para fazermos um formulario em HTML ultilizamos a tag < form > que é onde iremos colocar tags com imput ou ate mesmo label.</p>
+            <h2>Elementos dos Formulários</h2>
+            <p>Para fazermos um formulario em HTML ultilizamos a tag < form > que é onde iremos colocar tags com <b>input</b>(normalmente usado para botar botões e coisas que o usuario pode interagir), <b>label</b>(usado como um rotulo), <b>textarea</b>(normalmente usado para caixas de texto), <b>select</b>(define uma lista suspensa) e <b>option</b>(elementos da lista suspensa) e <b>button</b>para botões).</p>
             <h3>Atributos principais</h3>
             <p>Os formularios podem receber atributos como o <b>action = ""</b> que é ultilizado para definir uma ação para o formulario, o atibuto <b>method = ""</b> é utilizado para expecificar o metodo HTML ultilizado para enviar dados do formulario e possui dois valores validos o <b>GET</b>(Os dados são anexados à URL como pares nome/valor) e o <b>POST</b>(Os dados são enviados no corpo da requisição HTTP).</p>
         </section>
     </main>
-    <main id="semantica">
+    <main id="organizacao">
         <section>
+            <form action="cadastro" class="cadastro">
+                <label for="email">Insira seu email:</label><br>
+                <input type="email" name="email" id="email"><br>
 
+                <label for="senha">Crie uma senha :</label><br>
+                <input type="password" name="senha" id="senha"><br>
+
+                <label for="senha_confirm">Confirme sua senha</label><br>
+                <input type="password" name="senha_confirm" id="senha_confirm"><br>
+
+                <input type="submit" value="Continuar">
+                <input type="reset" value="Limpar">
+            </form>
         </section>
         <section>
+            <h2>Organização dos Formularios</h2>
+            
+            <h3>Uso correto do label</h3>
+            <p>Como o o <b>lable</b> funciona como um rotulo o jeito certo seria botar ele acima de campos onde o usuario tem que executar algo para que o usuario saiba o que fazer com aquilo.</p>
+            
+            <h3>Agrupamentos de campos</h3>
+            <p>Quando temos um formulário longo ou complexo em seções distintas utilizamos a tag < fieldset > que organiza visualmente e logicamente elementos relacionados, melhorando a experiencia de usabilidade e acessibilidade do formulário</p>
 
+            <h3>Semântica Básica</h3>
+            <p>A semântica básica em formulários HTML foca em agrupar logicamente os elementos e associar corretamente rótulos aos campos, para isso quando quiser fazer uma tabela do melhor jeito possivel recomenda-se o uso de tags semânticas ditas anteriormente como <b>< form ></b>, <b>< fieldset ></b>, <b>< label ></b> e o <b>< input ></b>, ao invez de divs.</p>
         </section>
     </main>
 
