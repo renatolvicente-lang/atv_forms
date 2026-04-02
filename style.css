@@ -22,6 +22,7 @@ nav a{
 }
 section{
     margin: auto;
+    padding: 20px; 
 }
 #sobre{
     display: flex;
@@ -29,6 +30,13 @@ section{
     border-bottom: 1px solid black;
     margin-top: 10px;
 }
+#utilidade{
+    display:flex;
+    padding: 30px;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
 nav a:hover{
 
     border-radius: 20px;

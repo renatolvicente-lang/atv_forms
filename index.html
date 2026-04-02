@@ -11,10 +11,10 @@
         <h1>Conceitos de Formularios em HTML</h1>
     </header>
     <nav>
-        <a href="#">O que é?</a>
-        <a href="#">Para que serve?</a>
-        <a href="#">Elementos</a>
-        <a href="#">Semântica</a>
+        <a href="#sobre">O que é?</a>
+        <a href="#utilidade">Para que serve?</a>
+        <a href="#elementos">Elementos</a>
+        <a href="#semantica">Semântica</a>
     </nav>
 
     <main id="sobre">
@@ -37,11 +37,24 @@
     </main>
 
     <main id="utilidade">
-        <section>
+        <section class="ulti">
+            <form action="cadastro" >
+                <label for="email">Insira seu email:</label><br>
+                <input type="email" name="email" id="email"><br>
 
+                <label for="senha">Crie uma senha :</label><br>
+                <input type="password" name="senha" id="senha"><br>
+
+                <label for="senha_confirm">Confirme sua senha</label><br>
+                <input type="password" name="senha_confirm" id="senha_confirm"><br>
+
+                <input type="submit" value="Continuar">
+                <input type="reset" value="Limpar">
+            </form>
         </section>
         <section>
-
+            <h1>Utilidades dos Formulários no HTML</h1>
+            <p>Normalmente ultilizado para paginas de de cadastro, paginas de login, paginas de recuperação, formularios em si ou até calculadoras e é uma das pricipais ferramentas para coletar dados de usuarios e enviá-los para o banco de dados.</p>
         </section>
     </main>
     <main id="elementos">
@@ -49,7 +62,7 @@
 
         </section>
         <section>
-
+            
         </section>
     </main>
     <main id="semantica">
